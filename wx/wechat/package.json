@@ -1,0 +1,27 @@
+{
+  "name": "wx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "env": "node ./wechat/config/env.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "async": "^2.6.0",
+    "axios": "^0.17.1",
+    "bufferhelper": "^0.2.1",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "node-cache": "^4.1.1",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "url": "^0.11.0",
+    "util": "^0.10.3"
+  }
+}
